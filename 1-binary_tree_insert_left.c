@@ -15,13 +15,14 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	/* Declare variable for the new node */
 	binary_tree_t *newNode;
 
-	/* Alloacte memory space for the new node */
-	newNode = malloc(sizeof(binary_tree_t));
-
 	/* Checks if parent exist */
 
 	if (!parent)
 		return (NULL);
+
+	/* Alloacte memory space for the new node */
+	newNode = malloc(sizeof(binary_tree_t));
+
 	if (!newNode)
 		return (NULL);
 
