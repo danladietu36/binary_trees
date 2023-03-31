@@ -1,4 +1,4 @@
-#include "binay_trees.h"
+#include "binary_trees.h"
 
 /**
  * binary_tree_postorder - Function to traverse a tree using post-order
