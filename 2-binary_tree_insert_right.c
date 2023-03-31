@@ -11,7 +11,7 @@
  *					as child of the new node. if no node
  *					exist at right of the parent, store the new node.
  *
- * Retrun: Pointer to the new node or NULL on fairlure.
+ * Return: Pointer to the new node or NULL on fairlure.
  *
  */
 
@@ -22,7 +22,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 
 	if (!parent)
 		return (NULL);
-	/* Allocate memory space to the variable*/
+	/* Allocate memory space to the variable */
 	new = malloc(sizeof(binary_tree_t));
 	if (!new)
 		return (NULL);
