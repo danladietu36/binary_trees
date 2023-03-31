@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_postorder - Function to traverse a tree using post-order
- * @trr: pointer to the root node of the tree to traverse
+ * @tree: pointer to the root node of the tree to traverse
  * @func: pointer to the function to call
  * Return: If tree or func is NULL, do nothing
  *
