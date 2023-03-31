@@ -1,11 +1,15 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_t *binary_tree_insert_right - Function to insert node as the rihjt child
+ * binary_tree_t *binary_tree_insert_right - Function to insert
+ *					node as the rihjt child
  * @parent: Pointer to the parent node
  * @value:  value to be store in the node
  *
- * Description - Replaces the node at the right if exists withe new node and store the old node as child of the new node. if no node exist at right of the parent, store the new node.
+ * Description - Replaces the node at the right if exists
+ *					withe new node and store the old node
+ *					as child of the new node. if no node
+ *					exist at right of the parent, store the new node.
  *
  * Retrun: Pointer to the new node or NULL on fairlure.
  *
